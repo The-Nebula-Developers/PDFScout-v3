@@ -6,11 +6,11 @@ PDFScout API allows you to search for PDFs, ebooks, and books using Google and A
 
 1. /api/google
     Search for books or PDFs on Google.
-    Example: <code>pdf-scout.vercel.app/api/google?query=The Art Of War</code>
+    <br>Example: <code>pdf-scout.vercel.app/api/google?query=The Art Of War</code>
 
 2. /api/archive.org
     Search for books or PDFs on Archive.org.
-    Example: <code>pdf-scout.vercel.app/api/archive?query=48 Laws Of Power</code>
+    <br>Example: <code>pdf-scout.vercel.app/api/archive?query=48 Laws Of Power</code>
 
 <h1>Usage</h1>
 
