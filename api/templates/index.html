@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Scout</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>PDF<span style="color: #37EBC0;">Scout</span></h1>
+        <p id="p">PDF Scout is a simple API that allows you to search for any pdf or books online.</p>
+        <form action="/api/google">
+            <input type="text" name="query" placeholder="Enter Book/PDF Name" required>
+            <button type="submit">TRY</button>
+        </form>
+        <div class="endpoints">
+            <h3>Endpoints</h3>
+                <p>1. <code><a href="/api/google">/api/google</a></code> - Search for books or pdfs on google</p>
+                <p>Example: <code>pdf-scout.vercel.app/api/google?query=The Art Of War</code></p>
+                <p>2. <code><a href="/api/archive.org">/api/archive></a></code> - Search for books or pdfs on archive.org</p>
+                <p>Example: <code>pdf-scout.vercel.app/api/archive?query=48 Laws Of Power</code></p>
+        </div>
+    </div>
+</body>
+</html>

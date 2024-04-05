@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --text: #ecf0f8;
+    --background: #06090e;
+    --primary: #8cace2;
+    --secondary: #37EBC0;
+    --accent: #37EBC0;
+}
+body {
+    background-color: var(--background);
+    font-family: "Poppins", sans-serif;
+}
+.main {
+    color: var(--text);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10vh;
+}
+.main h1 {
+    font-size: 2.5rem;
+    line-height: 20px;
+}
+
+#p {
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-text-shadow: #ffffff83 0px 0px 10px ;
+    -moz-text-shadow: #ffffff83 0px 0px 10px ;
+    text-shadow: #ffffff83 0px 0px 10px;
+    line-height: 20px;
+}
+.main input {
+    background-color: var(--background);
+    color: var(--text);
+    border: 1px solid var(--primary);
+    padding: 0.7em;
+    width: 20%;
+    font-size: 0.7em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-weight: 200;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+.main button {
+    background-color: var(--secondary);
+    color: black;
+    border: none;
+    padding: 0.7em;
+    width: 5%;
+    font-size: 0.7em;
+    -moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+.endpoints a{
+    color: var(--primary);
+}
+.endpoints {
+    color: var(--text);
+    background-image: linear-gradient(90deg, #040b15, #0a0e15);
+    text-align: left;
+    width: 40%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--primary);
+    margin-top: 5vh;
+}
+.endpoints h3, p {
+    margin-left: 20px;
+}
+.endpoints p {
+    font-size: 0.7em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    text-shadow: none;
+    line-height: 20px;
+}
