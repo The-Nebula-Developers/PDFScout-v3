@@ -3,7 +3,6 @@
         {
             "src":"api/main.py",
             "use":"@vercel/python",
-            "engines": {"node": "18.x"},
             "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
         }
     ],
